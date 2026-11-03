@@ -5,6 +5,11 @@ for Linux, macOS and Windows: the installers, the command-line archives and pack
 with its two signatures, the software bills of materials and, from the first final 0.4 release,
 the app's update manifest `latest.json`. It holds no source code.
 
+**Documents:** [VERIFYING.md](VERIFYING.md) (checking a download), [ADMIN-GUIDE.md](ADMIN-GUIDE.md)
+(managed deployment), [CHANGELOG.md](CHANGELOG.md); copies of the DARCQ repository's documents at the
+latest release. `latest.json` is the app's update manifest; until the first final release it
+announces version 0.0.0, so an installed release candidate finds no update.
+
 **Downloads:** the [releases page](https://github.com/IMNET-Security/DARCQ-releases/releases).
 A release candidate (`0.4.0-rc.N`) is marked as a pre-release; the app never offers one as an
 update.
